@@ -1,0 +1,31 @@
+{
+  "name": "financial-control-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OsmarAraujoDev/financial-control-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OsmarAraujoDev/financial-control-api/issues"
+  },
+  "homepage": "https://github.com/OsmarAraujoDev/financial-control-api#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.19.0",
+    "joi": "^18.0.2",
+    "pg": "^8.18.0",
+    "winston": "^3.19.0"
+  }
+}
