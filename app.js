@@ -19,6 +19,7 @@ app.use(
 );
 
 app.use('/users', require('./routes/user.routes'));
+app.use('/accounts', require('./routes/account.routes'));
 
 app.use('/uploads', express.static('uploads'));
 
